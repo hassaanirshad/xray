@@ -1,0 +1,8 @@
+[always]
+fun:func_with_no_args
+fun:func_with_one_int_arg=arg1
+fun:func_with_one_charp_arg=arg1
+fun:func_with_two_mixed_args=arg1
+
+[never]
+fun:func_should_not_be_present

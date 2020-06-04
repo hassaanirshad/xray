@@ -1,0 +1,15 @@
+A test to instrument functions using only the xray annotations specified in source.
+
+Mode: Basic (fdr cannot be enabled without source code additions)
+
+The annotations specify the requirements specified in xray_attr_file in basic_attr_file
+test.
+
+The argument is logged as base 10 value of the argument. The pointer address if it is pointer.
+
+The xray annotations are working as expected except for 'clang::xray_log_args(2)'. The
+second argument is not being logged.
+
+Caveats:
+
+1) Second argument to function not being logged

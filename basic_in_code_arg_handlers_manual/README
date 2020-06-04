@@ -1,0 +1,7 @@
+A test to instrument functions using only the xray annotations specified in source AND specify argument handler and xray event handler.
+
+Mode: NONE
+
+Getting the function address from xray function id and then getting the function name from convert_manual.sh
+
+If handler approach is not valid then the use of __xray_log_process_buffers function required to process all the buffered elements.

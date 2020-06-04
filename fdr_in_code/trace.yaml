@@ -1,0 +1,17 @@
+---
+header:
+  version:         5
+  type:            1
+  constant-tsc:    true
+  nonstop-tsc:     true
+  cycle-frequency: 2904000000
+records:
+  - { type: 0, func-id: 1, function: 'func_with_no_args()', cpu: 1, thread: 14659, process: 14659, kind: function-enter, tsc: 227716840899660, data: '' }
+  - { type: 0, func-id: 1, function: 'func_with_no_args()', cpu: 1, thread: 14659, process: 14659, kind: function-exit, tsc: 227716841950886, data: '' }
+  - { type: 0, func-id: 2, function: 'func_with_one_int_arg(int)', args: [ 10 ], cpu: 1, thread: 14659, process: 14659, kind: function-enter-arg, tsc: 227716841952540, data: '' }
+  - { type: 0, func-id: 2, function: 'func_with_one_int_arg(int)', cpu: 1, thread: 14659, process: 14659, kind: function-exit, tsc: 227716843157184, data: '' }
+  - { type: 0, func-id: 3, function: 'func_with_one_charp_arg(char const*)', args: [ 4332844 ], cpu: 1, thread: 14659, process: 14659, kind: function-enter-arg, tsc: 227716843158757, data: '' }
+  - { type: 0, func-id: 3, function: 'func_with_one_charp_arg(char const*)', cpu: 1, thread: 14659, process: 14659, kind: function-exit, tsc: 227716844135217, data: '' }
+  - { type: 0, func-id: 4, function: 'func_with_two_mixed_args(int, char const*)', args: [ 11 ], cpu: 1, thread: 14659, process: 14659, kind: function-enter-arg, tsc: 227716844136542, data: '' }
+  - { type: 0, func-id: 4, function: 'func_with_two_mixed_args(int, char const*)', cpu: 1, thread: 14659, process: 14659, kind: function-exit, tsc: 227716845175329, data: '' }
+...

@@ -1,0 +1,21 @@
+---
+header:
+  version:         3
+  type:            0
+  constant-tsc:    true
+  nonstop-tsc:     true
+  cycle-frequency: 2904000000
+records:
+  - { type: 0, func-id: 6, function: main, cpu: 1, thread: 14169, process: 14169, kind: function-enter, tsc: 219001342508696, data: '' }
+  - { type: 0, func-id: 1, function: 'func_with_no_args()', cpu: 1, thread: 14169, process: 14169, kind: function-enter, tsc: 219001342512484, data: '' }
+  - { type: 0, func-id: 1, function: 'func_with_no_args()', cpu: 1, thread: 14169, process: 14169, kind: function-exit, tsc: 219001343542597, data: '' }
+  - { type: 0, func-id: 2, function: 'func_with_one_int_arg(int)', cpu: 1, thread: 14169, process: 14169, kind: function-enter, tsc: 219001343548681, data: '' }
+  - { type: 0, func-id: 2, function: 'func_with_one_int_arg(int)', cpu: 1, thread: 14169, process: 14169, kind: function-exit, tsc: 219001344644431, data: '' }
+  - { type: 0, func-id: 3, function: 'func_with_one_charp_arg(char const*)', cpu: 1, thread: 14169, process: 14169, kind: function-enter, tsc: 219001344649071, data: '' }
+  - { type: 0, func-id: 3, function: 'func_with_one_charp_arg(char const*)', cpu: 1, thread: 14169, process: 14169, kind: function-exit, tsc: 219001345600129, data: '' }
+  - { type: 0, func-id: 4, function: 'func_with_two_mixed_args(int, char const*)', cpu: 1, thread: 14169, process: 14169, kind: function-enter, tsc: 219001345605506, data: '' }
+  - { type: 0, func-id: 4, function: 'func_with_two_mixed_args(int, char const*)', cpu: 1, thread: 14169, process: 14169, kind: function-exit, tsc: 219001346814048, data: '' }
+  - { type: 0, func-id: 5, function: 'func_should_not_be_present()', cpu: 1, thread: 14169, process: 14169, kind: function-enter, tsc: 219001346818376, data: '' }
+  - { type: 0, func-id: 5, function: 'func_should_not_be_present()', cpu: 1, thread: 14169, process: 14169, kind: function-exit, tsc: 219001347868563, data: '' }
+  - { type: 0, func-id: 6, function: main, cpu: 1, thread: 14169, process: 14169, kind: function-exit, tsc: 219001347872923, data: '' }
+...

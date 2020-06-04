@@ -1,0 +1,13 @@
+*** handle_all([int32_t function_id]=[2] (addr=41b130), [XRayEntryType entry_type]=[0])
+func_with_no_args
+*** handle_all([int32_t function_id]=[2] (addr=41b130), [XRayEntryType entry_type]=[1])
+*** handle_arg([int32_t function_id]=[3], [XRayEntryType entry_type]=[3], [uint64_t arg]=[10])
+func_with_one_int_arg([int a]=[10])
+*** handle_all([int32_t function_id]=[3] (addr=41b160), [XRayEntryType entry_type]=[1])
+*** handle_arg([int32_t function_id]=[4], [XRayEntryType entry_type]=[3], [uint64_t arg]=(char *)[helloworld])
+func_with_one_charp_arg([char *str]=[helloworld] (0x422081) (140721396567432))
+*** handle_all([int32_t function_id]=[4] (addr=41b1a0), [XRayEntryType entry_type]=[1])
+*** handle_arg([int32_t function_id]=[5], [XRayEntryType entry_type]=[3], [uint64_t arg]=[11])
+func_with_two_mixed_args([int a]=[11], [char *str]=[helloworld] (0x422081))
+*** handle_all([int32_t function_id]=[5] (addr=41b1f0), [XRayEntryType entry_type]=[1])
+func_should_not_be_present

@@ -1,0 +1,11 @@
+A test to instrument functions using only the xray attribute file specified at compile time.
+
+Mode: Basic (fdr cannot be enabled without source code additions)
+
+Caveats:
+
+1) Logging of arguments specified but not logged.
+2) Functions marked as never-log is logged
+
+Format of xray attr file mentioned in the commit here: https://github.com/llvm/llvm-project/commit/20dc6ef7464588762ad698084693030c946d70c7
+Unable to find the actual keys and values that xray looks for. The file constructed following the example here: https://llvm.org/docs/XRay.html#special-case-file
